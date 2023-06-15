@@ -1,0 +1,6 @@
+.todoHeader .title h1 {
+	font-size: 51px;
+	color: var(--font-color1);
+	font-weight: 700;
+	letter-spacing: 20px;
+}

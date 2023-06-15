@@ -1,0 +1,28 @@
+.todoInput input {
+	background-color: var(--bg2);
+	border: none;
+	outline: none !important;
+	caret-color: var(--blue-color);
+	color: var(--font-color1);
+	font-weight: 400;
+}
+.todoInput input::placeholder {
+	color: var(--font-color2);
+	font-family: "Josefin Sans", sans-serif;
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+.todoInput input:focus::placeholder {
+	opacity: 0;
+}
+.todoInput .add-btn {
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	border: none;
+	background-color: var(--blue-color);
+	color: var(--font-color1);
+	font-size: 12px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
